@@ -24,7 +24,7 @@ input_sinkAndPagerankjob=runner_pinit._output_dir
 
 pagerankjob=PageRankjob(args=[input_sinkAndPagerankjob,"--nodecount",nodecount])
 
-for i in range(0):
+for i in range(20):
 
     sinknodes_prsum=SinkNodesprsum(args=[input_sinkAndPagerankjob,"--nodecount",nodecount])
     runner_prsum=sinknodes_prsum.make_runner()
