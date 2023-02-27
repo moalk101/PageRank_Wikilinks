@@ -1,0 +1,15 @@
+= PageRank_Wikilinks
+
+== Usage:
+This code is made to calculate the PagRank of the Wikipidia links using MapeReduce from MRJob.
+To run the code first you need to run all the cells in the notebook datacleaning.ipynb. This will generate a csv file for the actual calculation of the PageRank.
+Run the runjobs.py file. This will calculate the pageranks and output them as a key-value pairs.
+
+== Dataset:
+The data used here is from WikiLinkGraphs specifically the code was tested on wikilink_graph.2005-03-01.
+The whole dataset can be found here: https://consonni.dev/datasets/wikilinkgraphs/
+
+== Note
+
+* The algorithm was inspired by Victor Lavrenko https://www.youtube.com/watch?v=9e3geIYFOF4&t=322s&ab_channel=VictorLavrenko
+
